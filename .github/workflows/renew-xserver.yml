@@ -2,7 +2,7 @@ name: XServer Renew
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Runs every day 10:00 (UTC 02:00 ) 
+    - cron: '11 5 * * *'  # Runs every day 10:00 (UTC 02:00 ) 
   workflow_dispatch: 
 
 jobs:
